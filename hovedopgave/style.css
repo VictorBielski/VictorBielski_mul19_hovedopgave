@@ -1,0 +1,163 @@
+/***************************
+****** FONTS LOADING ******
+***************************/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap");
+/******************************************
+********* PRIMARY COLOR VARIABLES**********
+******************************************/
+/******************************************
+********* OTHER COLOR VARIABLES***********
+******************************************/
+/*HEADER STYLING START*/
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif !important;
+  background-image: url("/hovedopgave/dashboard/img/bg_img.jpg") !important;
+  height: 100vh !important;
+  width: 100% !important;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navCon {
+  padding: 0 !important;
+}
+
+.navCon nav {
+  height: 60px !important;
+  background-color: #fff;
+}
+
+.navCon nav .nav-link {
+  font-size: 13px;
+  color: #404040;
+}
+
+.navCon nav .nav-link:hover {
+  color: #21706c;
+}
+
+.navCon nav .tog {
+  background-color: #000 !important;
+}
+
+.navCon nav .form-inline {
+  margin-top: 8px !important;
+}
+
+.navCon nav .form-inline input {
+  border-radius: 0;
+  height: 30px;
+  border: none;
+  font-size: 14px;
+}
+
+.navCon nav .form-inline .form-control:focus {
+  outline: none !important;
+  border-color: transparent !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.navCon nav .form-inline .btn-outline-success {
+  line-height: 1;
+  border-radius: 0;
+  font-size: 16px;
+  background-color: #1fc5be;
+  border: none;
+  border-radius: none;
+}
+
+.navCon nav .form-inline .btn-outline-success:active {
+  background-color: #1d9a95 !important;
+}
+
+.navCon nav .navbar-brand .logo {
+  width: 200px;
+  margin-top: 1px;
+}
+
+/*HEADER STYLING STOP*/
+/*LOGIN FORM INDEX STYLING START HER*/
+.loginCol {
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.94);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 2px -1px #b3b3b3;
+          box-shadow: 0px 0px 2px -1px #b3b3b3;
+}
+
+.loginCol .signuperror {
+  color: red;
+}
+
+.loginCol form label .header-signup {
+  font-size: 12px;
+}
+
+.loginCol form .ikkeBruger {
+  font-size: 10px;
+}
+
+.loginCol form .ikkeBruger span a {
+  color: #1fc5be !important;
+  font-weight: bold;
+}
+
+.loginCol form input {
+  height: 50px;
+  border: none;
+  border-radius: 0;
+  background-color: #a9a9a947;
+  padding-left: 55px;
+  width: 100% !important;
+}
+
+.loginCol form input:focus {
+  background-color: #69686847;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.loginCol form .logIn, .loginCol form .createUser {
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  background-color: #1fc5be;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.loginCol .input-group {
+  display: block;
+}
+
+.loginCol .input-group .fa-user, .loginCol .input-group .fa-key, .loginCol .input-group .fa-envelope {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 15px;
+  font-size: 1.3em;
+}
+
+.succesMsg {
+  text-transform: uppercase;
+  color: #1cc44e;
+}
+
+.succesMsg2 {
+  text-transform: uppercase;
+  color: #1cc44e !important;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/*LOGIN FORM INDEX STYLING SLUT HER*/
+/*# sourceMappingURL=style.css.map */

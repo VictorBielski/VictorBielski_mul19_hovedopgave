@@ -1,0 +1,556 @@
+@charset "UTF-8";
+/***************************
+****** FONTS LOADING ******
+***************************/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap");
+/******************************************
+********* PRIMARY COLOR VARIABLES**********
+******************************************/
+/******************************************
+********* OTHER COLOR VARIABLES***********
+******************************************/
+form .btn-outline-success {
+  background-color: #1fc5be;
+  border: none;
+  font-size: 11px !important;
+  color: #fff;
+  border-radius: 0;
+}
+
+form .btn-outline-success:hover {
+  background-color: #1d9a95 !important;
+}
+
+/*DASBOARD INDEX SIDE SLUT*/
+/****SEARCH STYLING RESULTATER START*****/
+.tableCon .fa-trash-alt, .tableCon .fa-file-export {
+  font-size: 1.3em !important;
+  color: #000 !important;
+}
+
+.tableCon .fa-trash-alt:hover {
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.tableCon .fa-file-export:hover {
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.tableCon h4 {
+  font-weight: 800 !important;
+  margin-left: 10px;
+}
+
+.tableCon .searchTable {
+  background-color: #fafafaf2;
+  border: 1px solid #4e4e4e70 !important;
+}
+
+.tableCon .searchTable th {
+  font-size: 16px;
+  border-bottom: 2px solid #a2a2a2;
+  border-top: none;
+}
+
+.tableCon .searchTable td {
+  font-size: 16px;
+}
+
+.tableCon .searchTable .tableBody {
+  border-top: 1px solid #000000;
+}
+
+.tableCon .searchTable .tableBody tr a .fa-trash-alt, .tableCon .searchTable .tableBody tr a .fa-file-export {
+  font-size: 1.3em !important;
+  color: #000 !important;
+}
+
+.tableCon .searchTable .tableBody tr a :hover {
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+/****SEARCH STYLING RESULTATER SLUT*****/
+/****DASHBOARD INDEX STYLING START*****/
+.dashIntro {
+  margin-top: 3%;
+}
+
+.dashIntro hr {
+  width: 10%;
+  border-top: 4px solid #1fc5be !important;
+}
+
+.dashIntro p {
+    width: 75% !important;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.dashIntro h3 {
+  font-weight: 800 !important;
+}
+
+.dashIntro .dashCol {
+  margin: 0 auto;
+}
+
+.options .col-lg-5 {
+  margin: 0 !important;
+}
+
+.options .cardOverlay {
+  height: 340px;
+  width: 100%;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  opacity: 0.5;
+  position: absolute;
+}
+
+.options .cardFlip {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.options .cardFlip:hover .flip,
+.options .cardFlip.hover .flip {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.options .cardFlip,
+.options .cardFront,
+.options .cardBack {
+  width: 100%;
+  height: 350px;
+}
+
+.options .flip {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+}
+
+.options .cardFront,
+.options .cardBack {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.options .cardFront {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.options .cardBack {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.options .card {
+  width: 100%;
+  height: 330px;
+  margin: 0 auto;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.94);
+  border: none;
+  -webkit-box-shadow: 0px 0px 4px -1px #c7c7c7;
+          box-shadow: 0px 0px 4px -1px #c7c7c7;
+}
+
+.options .card h5 {
+  margin-top: 5%;
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+.options .card .fa-plus, .options .card .fa-search, .options .card .fa-plus-circle {
+  font-size: 12em;
+  margin-top: 8%;
+}
+
+.options .btn-primary {
+  display: block;
+  border-radius: 0;
+  background-color: #1fc5be;
+  border: none;
+  position: absolute;
+  margin-top: 40% !important;
+  margin-left: 23% !important;
+  width: 190px;
+}
+
+.options .btn-primary:hover {
+  background-color: #1d9a95 !important;
+}
+
+/****DASHBOARD INDEX STYLING SLUT*****/
+/****SØGESIDE STYLEING START****/
+.uploadCol {
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.94);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 2px -1px #b3b3b3;
+          box-shadow: 0px 0px 2px -1px #b3b3b3;
+}
+
+.uploadCol .succesMsg {
+  text-transform: uppercase;
+  color: #1cc44e;
+}
+
+.uploadCol .errorMsg {
+  text-transform: uppercase;
+  color: #be2828;
+}
+
+.uploadCol .uploadInput {
+  height: 50px;
+  border: none;
+  border-radius: 0 !important;
+  background-color: #a9a9a947;
+  width: 100% !important;
+}
+
+.uploadCol input:focus {
+  background-color: #69686847;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.uploadCol .uploadBtn {
+  width: 100%;
+  height: 50px;
+  background-color: #1fc5be;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.uploadCol .uploadBtn:hover {
+  background-color: #1d9a95 !important;
+}
+
+.uploadCol .uploadBtn1 {
+  width: 15%;
+  height: 30px;
+  background-color: #1fc5be;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.uploadCol .custom-file-input:focus ~ .custom-file-label {
+  border: none !important;
+  background-color: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.uploadCol .custom-file-label {
+  border-radius: 0;
+  border: none;
+}
+
+.uploadCol .custom-file-input:lang(en) ~ .custom-file-label::after {
+  border-radius: 0;
+  background-color: #1fc5be;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.uploadCol .custom-file-input:lang(en) ~ .custom-file-label::after :hover {
+  background-color: #1d9a95 !important;
+}
+
+.uploadCol .custom-file-input:lang(en) ~ .custom-file-label::after {
+  content: "Vælg fil";
+}
+
+.uploadCol input[type="file"] {
+  position: absolute;
+  z-index: -1;
+  top: 6px;
+  left: 0px;
+  font-size: 15px;
+  color: #999999;
+}
+
+.uploadCol .button-wrap {
+  position: relative;
+}
+
+.uploadCol .btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.uploadCol .btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+
+.uploadCol input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
+/****SØGESIDE STYLEING SLUT****/
+.sogCont .sogLogo {
+  margin-top: -10%;
+}
+
+.sogCont .sogLogo img {
+  width: 100%;
+}
+
+.sogFormCol .sogForm {
+  text-align: center;
+}
+
+.sogFormCol .sogForm form {
+  margin-top: -10%;
+}
+
+.sogFormCol .sogForm form .sogInput {
+  height: 60px;
+  border: none;
+  border-radius: 0 !important;
+  background-color: #a9a9a947;
+  width: 100% !important;
+  font-size: 18px;
+}
+
+.sogFormCol .sogForm form input:focus {
+  background-color: #69686847;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.sogFormCol .sogForm form .sogBtn {
+  width: 15%;
+  height: 50px;
+  background-color: #1fc5be;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0;
+  margin-top: 30px;
+}
+
+#tableAll_length {
+  display: none;
+}
+
+#tableAll_filter {
+  display: none;
+}
+
+#tableAll_info {
+  display: none;
+}
+
+#tableAll_paginate {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  body {
+    height: 100% !important;
+  }
+  .tableCon .searchTable {
+    background-color: #fff;
+  }
+  .tableCon .searchTable th {
+    font-size: 10px;
+    padding: 0.40rem !important;
+  }
+  .tableCon .searchTable td {
+    font-size: 10px;
+    padding: 0.40rem !important;
+  }
+  .tableCon .searchTable .docSlet, .tableCon .searchTable .docSlet2, .tableCon .searchTable .docName, .tableCon .searchTable .docName2 {
+    display: none !important;
+  }
+  .options .op2 {
+    margin-top: 10%;
+  }
+  nav {
+    height: 60px !important;
+    background-color: transparent;
+  }
+  nav .nav-link {
+    font-size: 10px !important;
+    color: #404040;
+    white-space: nowrap;
+    padding-left: 0;
+  }
+  nav .navbar-brand {
+    margin: 0 !important;
+  }
+  nav .logo {
+    width: 120px !important;
+    margin-left: -20px;
+    margin-top: -2px !important;
+  }
+  nav .logoutBtn {
+    font-size: 10px !important;
+  }
+  .options .col-lg-5 {
+    margin: 0 !important;
+  }
+  .options .col-lg-5 .btn-primary {
+    display: block;
+    border-radius: 0;
+    background-color: #1fc5be;
+    border: none;
+    position: absolute;
+    margin: 0 !important;
+    width: 100% !important;
+    
+  }
+  .dashIntro .dashCol p {
+    background-color: #0000006b !important;
+    color: white !important;
+    padding: 15px !important;
+  }
+  .uploadBtn1 {
+    font-size: 10px !important;
+    width: 20% !important;
+  }
+  .sogInput {
+    background-color: #1d1d1d40 !important;
+  }
+  .sogBtn {
+    width: 25% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .tableCon .searchTable th {
+    font-size: 10px;
+    padding: 0.40rem !important;
+  }
+  .tableCon .searchTable td {
+    font-size: 10px;
+    padding: 0.40rem !important;
+  }
+  .tableCon .searchTable .docSlet, .tableCon .searchTable .docSlet2, .tableCon .searchTable .docDato, .tableCon .searchTable .docDato2 {
+    display: none !important;
+  }
+  .options .op2 {
+    margin-top: 10%;
+  }
+  .findBtn, .findBtn2 {
+    margin-top: -34% !important;
+    margin-left: 35% !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .tableCon .searchTable .docDato, .tableCon .searchTable .docDato2 {
+    display: none !important;
+  }
+  .options .col-lg-5 {
+    margin: 0 !important;
+  }
+  .options .col-lg-5 .btn-primary {
+    display: block;
+    border-radius: 0;
+    background-color: #1fc5be;
+    border: none;
+    position: absolute;
+    margin-top: 55% !important;
+    margin-left: 15% !important;
+    width: 190px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .options .col-lg-5 {
+    margin: 0 !important;
+  }
+  .options .col-lg-5 .btn-primary {
+    display: block;
+    border-radius: 0;
+    background-color: #1fc5be;
+    border: none;
+    position: absolute;
+    margin-top: 35% !important;
+    margin-left: 16% !important;
+    width: 300px;
+    font-size: 24px;
+  }
+  .tableCon {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+  .tableCon .fa-trash-alt, .tableCon .fa-file-export {
+    font-size: 1.3em !important;
+    color: #000 !important;
+  }
+  .tableCon .fa-trash-alt:hover {
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  .tableCon .fa-file-export:hover {
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  .tableCon h4 {
+    font-weight: 800 !important;
+    margin-left: 10px;
+  }
+  .tableCon .searchTable {
+    background-color: #fafafaf2;
+  }
+  .tableCon .searchTable th {
+    font-size: 20px;
+    border-bottom: 2px solid #a2a2a2;
+    border-top: none;
+  }
+  .tableCon .searchTable td {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=dashboard.style.css.map */
